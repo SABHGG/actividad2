@@ -55,7 +55,7 @@ def division(num1=0,num2=0):
         }
         return jsonify(data)
     else:
-        return jsonify({'resultado': 'No se puede dividir por 0'})
+        return jsonify({'resultado': 'No se puede dividir por 0', 'operacion': 'division'})
 
 @app.route('/potencia/<int:num1>/<int:num2>')
 @app.route('/potencia/<float:num1>/<float:num2>')
