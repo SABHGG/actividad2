@@ -119,7 +119,7 @@ function enviar() {
   } else if (op3.checked) {
     url = url + `/multiplicacion/${t1.value}/${t2.value}`;
   } else if (op4.checked) {
-    url = url + `/divicion/${t1.value}/${t2.value}`;
+    url = url + `/division/${t1.value}/${t2.value}`;
   } else if (op5.checked) {
     url = url + `/potencia/${t1.value}/${t2.value}`;
   } else if (op6.checked) {
